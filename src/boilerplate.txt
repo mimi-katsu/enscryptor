@@ -1,0 +1,7 @@
+"""key must be correct to use this script"""
+
+import enscryptlib
+
+KEY = enscryptlib.keygen(enscryptlib.get_id(), enscryptlib.get_pass())
+
+exec(enscryptlib.decrypt("ENCRYPTED_SCRIPT", KEY))
