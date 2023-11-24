@@ -1,4 +1,3 @@
 cryptography==3.4.8
 cryptography==38.0.4
 cryptography.egg==info
-psutil==5.9.5
